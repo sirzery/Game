@@ -1,0 +1,12 @@
+# Godot 4+ specific ignores
+.godot/
+/android/
+*.translation
+export_presets.cfg
+# Python caches from the art / audio generators
+__pycache__/
+*.pyc
+# Test captures
+/test_output/
+# Local engine overrides (tests/run_autotest.sh creates one temporarily)
+override.cfg
